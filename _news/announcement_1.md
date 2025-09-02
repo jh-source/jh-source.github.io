@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+title: ICML 2025 paper accepted
+date: 2025-05-01
 inline: true
-related_posts: false
 ---
-
-A simple inline announcement.
+Our paper "Simultaneous Multi-Robot Motion Planning with Projected Diffusion Models" has been accepted by ICML 2025.

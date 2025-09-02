@@ -1,115 +1,124 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{liang2025discrete,
+  title={Discrete-Guided Diffusion for Scalable and Safe Multi-Robot Motion Planning},
+  author={Liang, Jinhao and Koenig, Sven and Fioretto, Ferdinando},
+  journal={arXiv preprint arXiv:2508.20095},
+  year={2025},
+  abbr={arXiv},
+  abstract = {Multi-Robot Motion Planning (MRMP) involves generating collision-free trajectories for multiple robots operating in a shared continuous workspace. While discrete multi-agent path finding (MAPF) methods are broadly adopted due to their scalability, their coarse discretization severely limits trajectory quality. In contrast, continuous optimization-based planners offer higher-quality paths but suffer from the curse of dimensionality, resulting in poor scalability with respect to the number of robots. This paper tackles the limitations of these two approaches by introducing a novel framework that integrates discrete MAPF solvers with constrained generative diffusion models. The resulting framework, called Discrete-Guided Diffusion (DGD), has three key characteristics: (1) it decomposes the original nonconvex MRMP problem into tractable subproblems with convex configuration spaces, (2) it combines discrete MAPF solutions with constrained optimization techniques to guide diffusion models capture complex spatiotemporal dependencies among robots, and (3) it incorporates a lightweight constraint repair mechanism to ensure trajectory feasibility. The proposed method sets a new state-of-the-art performance in large-scale, complex environments, scaling to 100 robots while achieving planning efficiency and high success rates.},
+  arxiv={2508.20095}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{lu2025cost,
+  title={Cost-effective Closed-loop Bilevel Robust Optimization for Joint Chance-constrained Economic Dispatch},
+  author={Lu, Chenbei and Liang, Jinhao and Yi, Hongyu and Wu, Chenye},
+  booktitle={Proceedings of the 16th ACM International Conference on Future and Sustainable Energy Systems},
+  year={2025},
+  abbr={e-Energy},
+  abstract = {The day-ahead economic dispatch (ED) problems are critical in modern power systems operations. Traditionally, ED problems are solved using stochastic optimization (SO) methods, such as chance-constrained optimization (CCO), robust optimization (RO), and distributionally robust optimization (DRO). These methods usually follow a two-stage open-loop process: firstly, random variables (including distributions, uncertainty sets, and ambiguity sets) are estimated using historical data; then, the ED problem is solved based on these estimations. However, this approach often leads to suboptimal performance because the objectives in the two stages are misaligned: minimizing estimation errors does not necessarily result in the lowest possible ED costs. To tackle this challenge, we propose a closed-loop optimization framework that unifies and jointly optimizes the two stages through bilevel robust optimization. This method ensures the optimal ED cost while simultaneously satisfying joint chance constraints. To enhance computational efficiency, we transform the bilevel robust optimization problem into a more tractable bilevel linear programming problem. Furthermore, we introduce two parametric fine-tuning strategies to improve the performance of our closed-loop solution. Numerical studies using field data validate the effectiveness of the proposed frameworks.},
+  url={https://dl.acm.org/doi/full/10.1145/3679240.3734624}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{christopher2025neuro,
+  title={Neuro-Symbolic Generative Diffusion Models for Physically Grounded, Robust, and Safe Generation},
+  author={Christopher, Jacob K and Cardei, Michael and Liang, Jinhao and Fioretto, Ferdinando},
+  booktitle={International Conference on Neuro-symbolic Systems},
+  year={2025},
+  abbr={NeuS},
+  abstract = {Despite the remarkable generative capabilities of diffusion models, their integration into safety-critical or scientifically rigorous applications remains hindered by the need to ensure compliance with stringent physical, structural, and operational constraints. To address this challenge, this paper introduces Neuro-Symbolic Diffusion (NSD), a novel framework that interleaves diffusion steps with symbolic optimization, enabling the generation of certifiably consistent samples under user-defined functional and logic constraints. This key feature is provided for both standard and discrete diffusion models, enabling, for the first time, the generation of both continuous (e.g., images and trajectories) and discrete (e.g., molecular structures and natural language) outputs that comply with constraints. This ability is demonstrated on tasks spanning three key challenges: (1) Safety, in the context of non-toxic molecular generation and collision-free trajectory optimization; (2) Data scarcity, in domains such as drug discovery and materials engineering; and (3) Out-of-domain generalization, where enforcing symbolic constraints allows adaptation beyond the training distribution.},
+  arxiv={2506.01121},
+  award={DARPA Disruptive Ideas Award & Oral}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{liang2025simultaneous,
+  title={Simultaneous Multi-Robot Motion Planning with Projected Diffusion Models},
+  author={Liang, Jinhao and Christopher, Jacob K and Koenig, Sven and Fioretto, Ferdinando},
+  booktitle={Forty-second International Conference on Machine Learning},
+  year={2025},
+  abbr={ICML},
+  abstract = {Recent advances in diffusion models hold significant potential in robotics, enabling the generation of diverse and smooth trajectories directly from raw representations of the environment. Despite this promise, applying diffusion models to motion planning remains challenging due to their difficulty in enforcing critical constraints, such as collision avoidance and kinematic feasibility. These limitations become even more pronounced in Multi-Robot Motion Planning (MRMP), where multiple robots must coordinate in shared spaces. To address these challenges, this work proposes Simultaneous MRMP Diffusion (SMD), a novel approach integrating constrained optimization into the diffusion sampling process to produce collision-free, kinematically feasible trajectories. Additionally, the paper introduces a comprehensive MRMP benchmark to evaluate trajectory planning algorithms across scenarios with varying robot densities, obstacle complexities, and motion constraints. Experimental results show SMD consistently outperforms classical and other learning-based motion planners, achieving higher success rates and efficiency in complex multi-robot environments.},
+  arxiv={2502.03607}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{wang2025gen,
+  title={Gen-dfl: Decision-focused generative learning for robust decision making},
+  author={Wang, Prince Zizhuang and Liang, Jinhao and Chen, Shuyi and Fioretto, Ferdinando and Zhu, Shixiang},
+  journal={arXiv preprint arXiv:2502.05468},
+  year={2025},
+  abbr = {arXiv},
+  abstract = {Decision-focused learning (DFL) integrates predictive models with downstream optimization, directly training machine learning models to minimize decision errors. While DFL has been shown to provide substantial advantages when compared to a counterpart that treats the predictive and prescriptive models separately, it has also been shown to struggle in high-dimensional and risk-sensitive settings, limiting its applicability in real-world settings. To address this limitation, this paper introduces decision-focused generative learning (Gen-DFL), a novel framework that leverages generative models to adaptively model uncertainty and improve decision quality. Instead of relying on fixed uncertainty sets, Gen-DFL learns a structured representation of the optimization parameters and samples from the tail regions of the learned distribution to enhance robustness against worst-case scenarios. This approach mitigates over-conservatism while capturing complex dependencies in the parameter space. The paper shows, theoretically, that Gen-DFL achieves improved worst-case performance bounds compared to traditional DFL. Empirically, it evaluates Gen-DFL on various scheduling and logistics problems, demonstrating its strong performance against existing DFL methods.},
+  arxiv={2502.05468}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{liang2024multi,
+  title={Multi-agent path finding in continuous spaces with projected diffusion models},
+  author={Liang, Jinhao and Christopher, Jacob K and Koenig, Sven and Fioretto, Ferdinando},
+  booktitle={The 6th International Workshop on Multi-Agent Path Finding, at AAAI},
+  year={2025},
+  abbr={WoMAPF},
+  abstract = {Multi-Agent Path Finding (MAPF) is a fundamental problem in robotics, requiring the computation of collision-free paths for multiple agents moving from their respective start to goal positions. Coordinating multiple agents in a shared environment poses significant challenges, especially in continuous spaces where traditional optimization algorithms struggle with scalability. Moreover, these algorithms often depend on discretized representations of the environment, which can be impractical in image-based or high-dimensional settings. Recently, diffusion models have shown promise in single-agent path planning, capturing complex trajectory distributions and generating smooth paths that navigate continuous, high-dimensional spaces. However, directly extending diffusion models to MAPF introduces new challenges since these models struggle to ensure constraint feasibility, such as inter-agent collision avoidance. To overcome this limitation, this work proposes a novel approach that integrates constrained optimization with diffusion models for MAPF in continuous spaces. This unique combination directly produces feasible multi-agent trajectories that respect collision avoidance and kinematic constraints. The effectiveness of our approach is demonstrated across various challenging simulated scenarios of varying dimensionality.},
+  arxiv={2412.17993},
+  award={Oral}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{liang2024joint,
+  title={Joint chance-constrained unit commitment: Statistically feasible robust optimization with learning-to-optimize acceleration},
+  author={Liang, Jinhao and Jiang, Wenqian and Lu, Chenbei and Wu, Chenye},
+  journal={IEEE Transactions on Power Systems},
+  year={2024},
+  abbr = {TPWRS},
+  abstract = {Renewable energy penetration increases the power grid's operational uncertainty, threatening the economic effectiveness and reliability of the grid. In this article, we examine how uncertainty affects unit commitment (UC), a classical electricity market procedure. Stochastic programming has helped handle uncertainty for UC and performed well with distribution knowledge, but the lack of such information in practice deteriorates the effectiveness. Such a dilemma becomes more pronounced when dealing with joint chance constraints solely based on samples. To address this issue, we introduce statistical feasibility into UC and develop robust sample-based algorithms employing appropriate uncertainty sets to hedge uncertainty without distribution dependence. We also propose a learn-to-optimize acceleration method to convexify UC. Furthermore, we construct an optimization kernel to boost computational efficiency.},
+  url={https://ieeexplore.ieee.org/abstract/document/10384836}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@inproceedings{liang2023few,
+  title={Few-shot residential load forecasting boosted by learning to ensemble},
+  author={Liang, Jinhao and Lu, Chenbei and Jiang, Wenqian and Wu, Chenye},
+  booktitle={2023 IEEE 7th Conference on Energy Internet and Energy System Integration},
+  year={2023},
+  abbr = {EI2},
+  abstract = {Probabilistic forecasting can characterize the uncertainties and the dynamic trends of the future residential load, while massive data are required for popular forecasting methods. In this study, we consider probabilistic load forecasting for residential users who are only willing to provide limited data samples due to privacy concerns. To address this challenge, we analyze the characteristics of residential load and employ clustering-based few-shot learning methods to augment the data. Meanwhile, we combine different models, known as model ensemble, to further improve the performance. Compared with conventional ensemble methods using the linear combination, we adopt learning to ensemble, which captures the strengths of various models by learning the optimal nonlinear combination to avoid performance loss. We demonstrate that the proposed method outperforms conventional rivals theoretically and empirically. This method also sheds light on how varying the number of provided data can accommodate different privacy concerns.},
+  url={https://ieeexplore.ieee.org/abstract/document/10512399},
+  award={Oral}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{jiang2023robust,
+  title={Robust online ev charging scheduling with statistical feasibility},
+  author={Jiang, Wenqian and Liang, Jinhao and Lu, Chenbei and Wu, Chenye},
+  booktitle={2023 62nd IEEE Conference on Decision and Control},
+  year={2023},
+  abbr = {CDC},
+  abstract = {With the worldwide adoption of electric vehicles (EVs), charging stations are becoming the bottleneck in delivering high-quality charging service to EVs. Compared to conventional fuel vehicles, EVs require more time to charge at charging stations until their energy requirements are fulfilled. Furthermore, the distribution network capacities frequently limit charging resources at a charging station. As a result, charging station operators must optimize EVs' charging scheduling and allocate the limited charging resources efficiently. Due to the high uncertainty of future EVs' arrival and charging demands, station operators typically schedule the arrived EVs' charging solely based on the charging requirements of these EVs, while disregarding future arrivals. Such a scheduling policy is simple to implement, but it may result in high service drop rate, particularly for charging stations with high occupancy levels. To that end, we develop an EV charging schedule model that includes a reserved charging rate, as well as a robust sample-based approach that incorporates the concept of statistical feasibility to help minimize the service drop rate. Numerical studies further verify the effectiveness of our suggested method.},
+  url={https://ieeexplore.ieee.org/abstract/document/10383922}
+}
+
+@article{lu2023manipulation,
+  title={Manipulation-proof virtual bidding mechanism design},
+  author={Lu, Chenbei and Liang, Jinhao and Gu, Nan and Wang, Haoxiang and Wu, Chenye},
+  journal={IEEE Transactions on Energy Markets, Policy and Regulation},
+  year={2023},
+  abbr = {TEMPR},
+  abstract = {The high penetration of renewable energy increases the price volatility between the day-ahead (DA) and real-time (RT) markets, with heightened power system operational risks. Virtual bidding, a rising financial instrument, allows financial entities without energy-generating capacity or demand to arbitrage between the DA and RT markets, which can in turn reduce the market spread between the two markets and thus contain system operation risks. However, in practice, incomplete information often affects the effectiveness of virtual bidding, which poses uncertainties to strategic bidding behaviors, and makes it more challenging to understand the market manipulation. To control such risks, in this paper, we first game theoretically characterize the Nash Equilibrium of virtual bidding with both complete and incomplete information, and evaluate the benefits of virtual bidding for both virtual bidders (VBs) and the system as a whole. Then, we design a joint tax-subsidy mechanism for VBs with truthfulness and individual rationality guarantees against the market manipulation. We also prove that the system average forecast is the key to influencing the virtual bidding equilibrium. Further, we design two information mechanisms to enable VB privacy protection and market risk control separately. Numerical studies based on ISO-NE electricity market data verify our theory.},
+  url={https://ieeexplore.ieee.org/abstract/document/10269719}
+}
+
+@article{lu2023high,
+  title={High-resolution probabilistic load forecasting: A learning ensemble approach},
+  author={Lu, Chenbei and Liang, Jinhao and Jiang, Wenqian and Teng, Jiaye and Wu, Chenye},
+  journal={Journal of the Franklin Institute},
+  year={2023},
+  abbr = {FI},
+  abstract = {High-resolution probabilistic load forecasting can comprehensively characterize both the uncertainties and the dynamic trends of the future load. Such information is key to the reliable operation of the future power grid with a high penetration of renewables. To this end, various high-resolution probabilistic load forecasting models have been proposed in recent decades. Compared with a single model, it is widely acknowledged that combining different models can further enhance the prediction performance, which is called the model ensemble. However, existing model ensemble approaches for load forecasting are linear combination-based, like mean value ensemble, weighted average ensemble, and quantile regression, and linear combinations may not fully utilize the advantages of different models, seriously limiting the performance of the model ensemble. We propose a learning ensemble approach that adopts the machine learning model to directly learn the optimal nonlinear combination from data. We theoretically demonstrate that the proposed learning ensemble approach can outperform conventional ensemble approaches. Based on the proposed learning ensemble model, we also introduce a Shapley value-based method to evaluate the contributions of each model to the model ensemble. The numerical studies on field load data verify the remarkable performance of our proposed approach.},
+  url={https://www.sciencedirect.com/science/article/pii/S0016003223000911?casa_token=z6o2X-16DlsAAAAA:UnTIgyJ4Pp7zSkxVAyXM-esT1nWj-pzgH8m3LYgTJcj883NcCzrM6E1285USMJrRj1G-VEGxnpm8}
+}
+
+@inproceedings{liang2022effective,
+  title={Effective Carbon Tax Learning via Cap and Trade},
+  author={Liang, Jinhao and Jiang, Wenqian and Wu, Chenye},
+  booktitle={2022 IEEE 5th International Electrical and Energy Conference},
+  year={2022},
+  abbr = {CIEEC},
+  abstract = {Global warming warrants the global adoption of carbon reduction schemes, among which the two most popular ones are carbon tax (CT) and the cap-and-trade (CAT) program with quite different implementations. CT levies taxes on the energy generation while CAT directly limits the total carbon emission in the system. Hence, in practice, CAT is more adjustable than CT due to the long legislation process for altering tax rate, though CT is much easier to implement. In this paper, we seek to learn the most effective tax rate through CAT programs by establishing the equivalence between CT and CAT. Through bridging the two schemes, we use numerical study to highlight the different dynamics for the schemes to converge to the equivalent point.},
+  url={https://ieeexplore.ieee.org/abstract/document/9846303}
 }

@@ -45,6 +45,23 @@ body.sticky-bottom-footer {
  ******************************************************************************/
 
 // TODO: redefine publications layout.
+.award-chip {
+  display: inline-block;
+  background: #c62828; // red 800
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem; // close to author text size
+  font-weight: 600;
+  line-height: 1.2;
+  vertical-align: baseline;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+// .award-wrap {
+//   margin-top: 0.4rem;  // equalize spacing above
+//   margin-bottom: 0.4rem; // equalize spacing below (to buttons)
+// }
 
 /*****************************************************************************
 * Projects
