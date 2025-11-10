@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Presenting at AAAI-25 WoMAPF and AI+ORMS Bridge
-date: 2024-12-01
+date: 2024-12-12
 inline: true
 ---
 
