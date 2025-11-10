@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NeurIPS workshop papers accepted
-date: 2024-09-22
+date: 2025-09-22
 inline: true
 ---
 
