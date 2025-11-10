@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Presenting at AAAI-25 WoMAPF and AI+ORMS Bridge
-date: 2024-12-01
+title: CUHKSZ Presidential Award
+date: 2024-11-19
 inline: true
 ---
 
-We'll present "Multi-Agent Path Finding in Continuous Spaces with Projected Diffusion Models" at AAAI-25 WoMAPF and AAAI-25 Bridge: AI+ORMS.
+Honored to receive the [CUHKSZ Presidential Award for Outstanding Graduate Students](https://www.cuhk.edu.cn/zh-hans/article/14770).

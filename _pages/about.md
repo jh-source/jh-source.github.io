@@ -35,4 +35,4 @@ I am currently a Ph.D. student in Computer Science at the <a href="https://www.v
 
 <header><h2>Research</h2></header>
 
-I am particularly interested in integrating generative AI with optimization to address complex scientific and engineering challenges. Currently, my research topics focus on developing algorithms to ensure the output of diffusion models satisfying constraints with provably guarantees by introducing differentiable optimization techniques into diffusion process. Specifically, I aim to tackle challenges in critical domains such as power systems and robotics, contributing to scalable and adaptive solutions for real-world applications.
+I am particularly interested in integrating generative AI with optimization to address complex scientific and engineering challenges. Currently, my research topics focus on developing algorithms to ensure the output of diffusion models/flow matching satisfying constraints with provably guarantees.

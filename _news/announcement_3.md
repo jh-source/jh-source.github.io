@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Awards and Fellowship
-date: 2024-11-01
+title: Presenting at AAAI-25 WoMAPF and AI+ORMS Bridge
+date: 2024-12-01
 inline: true
 ---
 
-Honored to receive the CUHKSZ Presidential Award for Outstanding Graduate Students and the UVA Provost Fellowship.
+Paper titled "[Multi-Agent Path Finding in Continuous Spaces with Projected Diffusion Models](https://arxiv.org/abs/2412.17993)" accepted to AAAI-25 [WoMAPF](https://womapf.github.io/aaai-25/) and AAAI-25 Bridge: [AI+ORMS](https://aaai.org/conference/aaai/aaai-25/bridge-ai-orms/).

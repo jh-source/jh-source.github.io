@@ -220,6 +220,14 @@
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
 
+      {% if entry.code %}
+        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+      {% endif %}
+
+      {% if entry.project %}
+        <a href="{{ entry.project }}" class="btn btn-sm z-depth-0" role="button">Project</a>
+      {% endif %}
+
       <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     </div>
     {% if site.enable_publication_badges %}

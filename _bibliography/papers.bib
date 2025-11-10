@@ -3,9 +3,9 @@
 @article{liang2025discrete,
   title={Discrete-Guided Diffusion for Scalable and Safe Multi-Robot Motion Planning},
   author={Liang, Jinhao and Koenig, Sven and Fioretto, Ferdinando},
-  journal={arXiv preprint arXiv:2508.20095},
-  year={2025},
-  abbr={arXiv},
+  journal={The 40th Annual AAAI Conference on Artificial Intelligence},
+  year={2026},
+  abbr={AAAI},
   abstract = {Multi-Robot Motion Planning (MRMP) involves generating collision-free trajectories for multiple robots operating in a shared continuous workspace. While discrete multi-agent path finding (MAPF) methods are broadly adopted due to their scalability, their coarse discretization severely limits trajectory quality. In contrast, continuous optimization-based planners offer higher-quality paths but suffer from the curse of dimensionality, resulting in poor scalability with respect to the number of robots. This paper tackles the limitations of these two approaches by introducing a novel framework that integrates discrete MAPF solvers with constrained generative diffusion models. The resulting framework, called Discrete-Guided Diffusion (DGD), has three key characteristics: (1) it decomposes the original nonconvex MRMP problem into tractable subproblems with convex configuration spaces, (2) it combines discrete MAPF solutions with constrained optimization techniques to guide diffusion models capture complex spatiotemporal dependencies among robots, and (3) it incorporates a lightweight constraint repair mechanism to ensure trajectory feasibility. The proposed method sets a new state-of-the-art performance in large-scale, complex environments, scaling to 100 robots while achieving planning efficiency and high success rates.},
   arxiv={2508.20095}
 }
@@ -38,7 +38,10 @@
   year={2025},
   abbr={ICML},
   abstract = {Recent advances in diffusion models hold significant potential in robotics, enabling the generation of diverse and smooth trajectories directly from raw representations of the environment. Despite this promise, applying diffusion models to motion planning remains challenging due to their difficulty in enforcing critical constraints, such as collision avoidance and kinematic feasibility. These limitations become even more pronounced in Multi-Robot Motion Planning (MRMP), where multiple robots must coordinate in shared spaces. To address these challenges, this work proposes Simultaneous MRMP Diffusion (SMD), a novel approach integrating constrained optimization into the diffusion sampling process to produce collision-free, kinematically feasible trajectories. Additionally, the paper introduces a comprehensive MRMP benchmark to evaluate trajectory planning algorithms across scenarios with varying robot densities, obstacle complexities, and motion constraints. Experimental results show SMD consistently outperforms classical and other learning-based motion planners, achieving higher success rates and efficiency in complex multi-robot environments.},
-  arxiv={2502.03607}
+  arxiv={2502.03607},
+  code={https://github.com/RAISELab-atUVA/Diffusion-MRMP/tree/main}
+  project={https://multi-robot-constrained-diffusion.github.io/}
+
 }
 
 @article{wang2025gen,

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: ICML 2025 paper accepted
-date: 2025-05-01
+title: UVA Provost Fellowship
+date: 2024-02-07
 inline: true
 ---
 
-Our paper "Simultaneous Multi-Robot Motion Planning with Projected Diffusion Models" has been accepted by ICML 2025.
+Honored to receive the [UVA Provost Fellowship](https://education.virginia.edu/admission/fellowships-scholarships-awards/uva-presidential-and-provosts-fellowships).
