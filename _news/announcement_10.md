@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UQ 2026 talk
-date: 2025-11-08
+date: 2026-03-24
 inline: true
 ---
 
