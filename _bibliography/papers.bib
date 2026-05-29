@@ -1,5 +1,15 @@
 ---
 ---
+@article{liang2026simulation,
+  title={Simulation-Informed Diffusion for Decentralized Multi-robot Motion Planning},
+  author={Liang, Jinhao and Koenig, Sven and Fioretto, Ferdinando},
+  journal={arXiv preprint arXiv:2605.27697},
+  year={2026},
+  abbr={arXiv},
+  abstract={Decentralized multi-robot motion planning requires each robot to generate collision-free trajectories from local observations, without global sensing or reliable communication. However, most existing planners, whether classical or learning-based, generate trajectories from a static snapshot of the local observation, which limits their ability to anticipate the future behavior of neighboring robots. This limitation is critical as the number of robots increases and the environment becomes more cluttered. To overcome this challenge, this paper introduces Simulation-Informed Diffusion (SID), a decentralized framework built on constraint-aware diffusion models (CADM). SID first uses CADM to simulate the future trajectories of neighboring robots from their currently observed states, and then uses the same CADM to plan each robot's own trajectory under safety constraints informed by these simulations. Crucially, the accurate simulation of neighbors enables a minimal communication scheme that triggers coordination only when necessary in highly congested scenarios. Experiments across diverse environments show that SID consistently outperforms baseline methods in terms of planning effectiveness and constraint satisfaction, and scales to scenarios with 108 robots and 160 obstacles.},
+  arxiv={2605.27697}
+}
+
 @article{liang2025chance,
   title={Chance-constrained Flow Matching for High-Fidelity Constraint-aware Generation},
   author={Liang, Jinhao and Sun, Yixuan and Samaddar, Anirban and Madireddy, Sandeep and Fioretto, Ferdinando},
